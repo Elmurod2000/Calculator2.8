@@ -9,6 +9,14 @@
     android:weightSum="6"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEnd"
+        android:visibility="gone"
+        />
+
     <TextView
         android:id="@+id/screen"
         android:layout_width="match_parent"
@@ -18,6 +26,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginBottom="30dp"
         android:layout_weight="1"
+        android:text="0"
         android:background="#BBD899"
         android:padding="10dp"
         android:textColor="@color/purple_700"
